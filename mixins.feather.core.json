@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "package": "net.digitalingot.feather.mixin.core",
+  "refmap": "mixins.feather.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    //#if MC>11802
+    //$$ "mr",
+    //$$ "eg",
+    //#endif
+    //#if MC>11202
+    //$$ "lt",
+    //$$ "hb",
+    //#endif
+    //#if MC==11701 || MC==11802
+    //$$ "ep",
+    //$$ "qr",
+    //#endif
+    "lh",
+    "nc",
+    "xj",
+    "oe",
+    "qy",
+    "ou",
+    "pq",
+    "as",
+    "km",
+    "mq",
+    "ux",
+    "si",
+    "wz"
+  ]
+}

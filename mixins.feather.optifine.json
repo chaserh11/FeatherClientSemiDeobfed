@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8.2",
+  "package": "net.digitalingot.feather.mixin.optifine",
+  "target": "@env(DEFAULT)",
+  //#if MC>=11701
+  //$$ "compatibilityLevel": "JAVA_17",
+  //#else
+  "compatibilityLevel": "JAVA_8",
+  //#endif
+  "client": [
+    "MixinConfig"
+  ]
+}
